@@ -18,6 +18,24 @@ h3 {
     color: rgb(13, 19, 33);
 }
 
+.btn {
+    font-size: 20px;
+    background-color:
+     rgb(255, 254, 254);
+    
+     padding: 10px 20px;
+     border: 2px solid #131212;
+     cursor: pointer;
+}
+.btn li {
+    list-style: none;
+}
+
+.btn li a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
 /* Header Section style */
 
 #hero {
@@ -95,3 +113,53 @@ h3 {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
+
+/* main section style */
+
+#blog{
+    margin: 180px 320px;
+
+}
+
+#blog .title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+#blog .subtitle{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 70px;
+}
+
+#blog .container-items {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+#blog .container-items .container-item{
+    margin-bottom: 35px;
+    
+}
+
+.container-item h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.container-item p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0px 110px 45px 0px;
+    opacity: 0.7;
+}
+
