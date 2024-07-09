@@ -116,19 +116,19 @@ h3 {
 
 /* main section style */
 
-#blog{
+#dbl{
     margin: 180px 320px;
 
 }
 
-#blog .title {
+#dbl .title {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     color: rgb(13, 19, 33);
     margin-bottom: 24px;
 }
-#blog .subtitle{
+#dbl .subtitle{
     font-size: 16px;
     text-align: center;
     color: rgb(13, 19, 33);
@@ -136,14 +136,14 @@ h3 {
     margin-bottom: 70px;
 }
 
-#blog .container-items {
+#dbl .container-items {
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
 }
-#blog .container-items .container-item{
+#dbl .container-items .container-item{
     margin-bottom: 35px;
     
 }
